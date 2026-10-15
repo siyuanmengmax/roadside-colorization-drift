@@ -1,0 +1,110 @@
+{
+ "sim_clear": {
+  "n": 800,
+  "noise_floor": 1.263,
+  "median": 1.061,
+  "p10_p90": [
+   0.916,
+   1.796
+  ],
+  "drift_at_noise_floor_cm": 0.52,
+  "E_at_1cm": 2.4098,
+  "ratio_E1cm_over_floor": 1.91
+ },
+ "sim_rain_med": {
+  "n": 800,
+  "noise_floor": 1.149,
+  "median": 1.025,
+  "p10_p90": [
+   0.891,
+   1.47
+  ],
+  "drift_at_noise_floor_cm": 0.9,
+  "E_at_1cm": 1.2738,
+  "ratio_E1cm_over_floor": 1.11
+ },
+ "sim_fog": {
+  "n": 800,
+  "noise_floor": 0.592,
+  "median": 0.524,
+  "p10_p90": [
+   0.432,
+   0.756
+  ],
+  "drift_at_noise_floor_cm": 0.64,
+  "E_at_1cm": 0.9289,
+  "ratio_E1cm_over_floor": 1.57
+ },
+ "sim_night": {
+  "n": 800,
+  "noise_floor": 2.368,
+  "median": 2.485,
+  "p10_p90": [
+   1.601,
+   2.726
+  ],
+  "drift_at_noise_floor_cm": 1.47,
+  "E_at_1cm": 1.7976,
+  "ratio_E1cm_over_floor": 0.76
+ },
+ "sim_town05_clear": {
+  "n": 800,
+  "noise_floor": 0.881,
+  "median": 0.774,
+  "p10_p90": [
+   0.566,
+   1.194
+  ],
+  "drift_at_noise_floor_cm": 0.48,
+  "E_at_1cm": 1.8232,
+  "ratio_E1cm_over_floor": 2.07
+ },
+ "real_tumtraf": {
+  "n": 360,
+  "noise_floor": 2.046,
+  "median": 1.801,
+  "p10_p90": [
+   1.474,
+   2.822
+  ],
+  "drift_at_noise_floor_cm": 1.64,
+  "E_at_1cm": 1.3364,
+  "ratio_E1cm_over_floor": 0.65
+ },
+ "real_v2xreal": {
+  "n": 359,
+  "noise_floor": 2.844,
+  "median": 2.39,
+  "p10_p90": [
+   1.503,
+   4.991
+  ],
+  "drift_at_noise_floor_cm": 0.65,
+  "E_at_1cm": 4.3582,
+  "ratio_E1cm_over_floor": 1.53
+ },
+ "real_tumtraf_day": {
+  "n": 266,
+  "noise_floor": 2.042,
+  "median": 1.734,
+  "p10_p90": [
+   1.469,
+   2.934
+  ],
+  "drift_at_noise_floor_cm": 1.35,
+  "E_at_1cm": 1.5763,
+  "ratio_E1cm_over_floor": 0.77
+ },
+ "real_tumtraf_s04": {
+  "n": 94,
+  "noise_floor": 2.06,
+  "median": 1.969,
+  "p10_p90": [
+   1.668,
+   2.541
+  ],
+  "drift_at_noise_floor_cm": 4.86,
+  "E_at_1cm": 0.6548,
+  "ratio_E1cm_over_floor": 0.32
+ }
+}

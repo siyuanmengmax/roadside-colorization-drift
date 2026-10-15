@@ -1,0 +1,1100 @@
+{
+ "reliability": {
+  "5": {
+   "real_std": 0.187,
+   "real_mean": 0.777,
+   "sim_std": 0.0,
+   "sim_mean": 1.0
+  },
+  "10": {
+   "real_std": 0.234,
+   "real_mean": 0.589,
+   "sim_std": 0.0,
+   "sim_mean": 1.0
+  },
+  "20": {
+   "real_std": 0.23,
+   "real_mean": 0.402,
+   "sim_std": 0.0,
+   "sim_mean": 1.0
+  },
+  "40": {
+   "real_std": 0.193,
+   "real_mean": 0.251,
+   "sim_std": 0.003,
+   "sim_mean": 0.996
+  },
+  "80": {
+   "real_std": 0.148,
+   "real_mean": 0.147,
+   "sim_std": 0.017,
+   "sim_mean": 0.939
+  }
+ },
+ "detection": {
+  "s03": {
+   "5": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.4398,
+     "R": 0.0723,
+     "F1": 0.1242,
+     "TP": 680,
+     "FP": 866
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0837,
+     "R": 0.2411,
+     "F1": 0.1242,
+     "TP": 196,
+     "FP": 2146
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.4262,
+     "R": 0.0743,
+     "F1": 0.1266,
+     "TP": 699,
+     "FP": 941
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0781,
+     "R": 0.3321,
+     "F1": 0.1265,
+     "TP": 270,
+     "FP": 3187
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": 0.0005,
+     "CI95": [
+      -0.0007,
+      0.0014
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": 0.0071,
+     "CI95": [
+      0.0034,
+      0.0096
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0022,
+     "CI95": [
+      0.0005,
+      0.0035
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": 0.0194,
+     "CI95": [
+      0.0099,
+      0.0293
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.9275,
+     "R": 0.309,
+     "F1": 0.4636,
+     "TP": 2906,
+     "FP": 227
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.1168,
+     "R": 0.8881,
+     "F1": 0.2065,
+     "TP": 722,
+     "FP": 5457
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.9357,
+     "R": 0.3095,
+     "F1": 0.4652,
+     "TP": 2911,
+     "FP": 200
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.1118,
+     "R": 0.8954,
+     "F1": 0.1988,
+     "TP": 728,
+     "FP": 5783
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0001,
+     "CI95": [
+      -0.0009,
+      0.0006
+     ],
+     "excl0": false
+    },
+    "oracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.0001,
+     "CI95": [
+      -0.0006,
+      0.0004
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0001,
+     "CI95": [
+      -0.0005,
+      0.0003
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": -0.0025,
+     "CI95": [
+      -0.005,
+      -0.0006
+     ],
+     "excl0": true
+    }
+   },
+   "10": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.4539,
+     "R": 0.0707,
+     "F1": 0.1224,
+     "TP": 665,
+     "FP": 800
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0876,
+     "R": 0.2103,
+     "F1": 0.1237,
+     "TP": 171,
+     "FP": 1780
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.4293,
+     "R": 0.0742,
+     "F1": 0.1266,
+     "TP": 698,
+     "FP": 928
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0749,
+     "R": 0.3924,
+     "F1": 0.1258,
+     "TP": 319,
+     "FP": 3939
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0014,
+     "CI95": [
+      -0.0043,
+      0.0006
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": 0.0066,
+     "CI95": [
+      -0.0039,
+      0.0161
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0021,
+     "CI95": [
+      0.0002,
+      0.0038
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": 0.0187,
+     "CI95": [
+      0.0031,
+      0.0394
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.9274,
+     "R": 0.3082,
+     "F1": 0.4627,
+     "TP": 2899,
+     "FP": 227
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.1155,
+     "R": 0.8524,
+     "F1": 0.2035,
+     "TP": 693,
+     "FP": 5306
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.9363,
+     "R": 0.3094,
+     "F1": 0.4651,
+     "TP": 2910,
+     "FP": 198
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.1096,
+     "R": 0.8954,
+     "F1": 0.1953,
+     "TP": 728,
+     "FP": 5916
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.001,
+     "CI95": [
+      -0.003,
+      0.0006
+     ],
+     "excl0": false
+    },
+    "oracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.0032,
+     "CI95": [
+      -0.0071,
+      -0.0
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0001,
+     "CI95": [
+      -0.001,
+      0.0007
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": -0.006,
+     "CI95": [
+      -0.0105,
+      -0.0031
+     ],
+     "excl0": true
+    }
+   },
+   "20": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.6155,
+     "R": 0.0657,
+     "F1": 0.1187,
+     "TP": 618,
+     "FP": 386
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.058,
+     "R": 0.0812,
+     "F1": 0.0677,
+     "TP": 66,
+     "FP": 1072
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.431,
+     "R": 0.0741,
+     "F1": 0.1265,
+     "TP": 697,
+     "FP": 920
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0724,
+     "R": 0.4736,
+     "F1": 0.1257,
+     "TP": 385,
+     "FP": 4930
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.005,
+     "CI95": [
+      -0.0101,
+      -0.0004
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.0495,
+     "CI95": [
+      -0.0978,
+      -0.0096
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0021,
+     "CI95": [
+      0.0001,
+      0.0039
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": 0.0186,
+     "CI95": [
+      -0.0075,
+      0.0553
+     ],
+     "excl0": false
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.9269,
+     "R": 0.3072,
+     "F1": 0.4614,
+     "TP": 2889,
+     "FP": 228
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.1012,
+     "R": 0.69,
+     "F1": 0.1765,
+     "TP": 561,
+     "FP": 4984
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.9366,
+     "R": 0.3093,
+     "F1": 0.465,
+     "TP": 2909,
+     "FP": 197
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.1065,
+     "R": 0.8795,
+     "F1": 0.1901,
+     "TP": 715,
+     "FP": 5996
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0023,
+     "CI95": [
+      -0.0048,
+      -0.0001
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.0302,
+     "CI95": [
+      -0.0552,
+      -0.0144
+     ],
+     "excl0": true
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0002,
+     "CI95": [
+      -0.0013,
+      0.0008
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": -0.0112,
+     "CI95": [
+      -0.0175,
+      -0.006
+     ],
+     "excl0": true
+    }
+   },
+   "40": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.7808,
+     "R": 0.0587,
+     "F1": 0.1092,
+     "TP": 552,
+     "FP": 155
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 761
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.4288,
+     "R": 0.0737,
+     "F1": 0.1258,
+     "TP": 693,
+     "FP": 923
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.062,
+     "R": 0.4711,
+     "F1": 0.1096,
+     "TP": 383,
+     "FP": 5792
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0145,
+     "CI95": [
+      -0.0219,
+      -0.0076
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.1172,
+     "CI95": [
+      -0.1779,
+      -0.0445
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0013,
+     "CI95": [
+      -0.0019,
+      0.0036
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": 0.0025,
+     "CI95": [
+      -0.0257,
+      0.0399
+     ],
+     "excl0": false
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.911,
+     "R": 0.2861,
+     "F1": 0.4355,
+     "TP": 2691,
+     "FP": 263
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.0396,
+     "R": 0.2017,
+     "F1": 0.0662,
+     "TP": 164,
+     "FP": 3977
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.9365,
+     "R": 0.309,
+     "F1": 0.4647,
+     "TP": 2906,
+     "FP": 197
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.1041,
+     "R": 0.8524,
+     "F1": 0.1855,
+     "TP": 693,
+     "FP": 5965
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0282,
+     "CI95": [
+      -0.0331,
+      -0.0232
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.1404,
+     "CI95": [
+      -0.1996,
+      -0.0911
+     ],
+     "excl0": true
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0006,
+     "CI95": [
+      -0.0022,
+      0.0007
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": -0.0157,
+     "CI95": [
+      -0.026,
+      -0.0074
+     ],
+     "excl0": true
+    }
+   },
+   "80": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.7787,
+     "R": 0.0483,
+     "F1": 0.0909,
+     "TP": 454,
+     "FP": 129
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 436
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.4308,
+     "R": 0.0735,
+     "F1": 0.1255,
+     "TP": 691,
+     "FP": 913
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0492,
+     "R": 0.4391,
+     "F1": 0.0885,
+     "TP": 357,
+     "FP": 6901
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0328,
+     "CI95": [
+      -0.0469,
+      -0.0193
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.1172,
+     "CI95": [
+      -0.1779,
+      -0.0445
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0011,
+     "CI95": [
+      -0.002,
+      0.0033
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": -0.0186,
+     "CI95": [
+      -0.0464,
+      0.0195
+     ],
+     "excl0": false
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.8889,
+     "R": 0.2237,
+     "F1": 0.3575,
+     "TP": 2104,
+     "FP": 263
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.0054,
+     "R": 0.0197,
+     "F1": 0.0084,
+     "TP": 16,
+     "FP": 2960
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.9364,
+     "R": 0.3083,
+     "F1": 0.4639,
+     "TP": 2900,
+     "FP": 197
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.0983,
+     "R": 0.7897,
+     "F1": 0.1748,
+     "TP": 642,
+     "FP": 5891
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.1062,
+     "CI95": [
+      -0.1191,
+      -0.0902
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa_minus_uniform6/pedestrian": {
+     "dF1": -0.1982,
+     "CI95": [
+      -0.2686,
+      -0.1345
+     ],
+     "excl0": true
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0013,
+     "CI95": [
+      -0.0034,
+      0.0003
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/pedestrian": {
+     "dF1": -0.0265,
+     "CI95": [
+      -0.0506,
+      -0.0121
+     ],
+     "excl0": true
+    }
+   }
+  },
+  "s04": {
+   "5": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.0803,
+     "R": 0.021,
+     "F1": 0.0334,
+     "TP": 56,
+     "FP": 641
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 281
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.1508,
+     "R": 0.0552,
+     "F1": 0.0809,
+     "TP": 147,
+     "FP": 828
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 838
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0007,
+     "CI95": [
+      -0.0064,
+      0.0034
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0226,
+     "CI95": [
+      0.0146,
+      0.0328
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.9104,
+     "R": 0.3514,
+     "F1": 0.507,
+     "TP": 935,
+     "FP": 92
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1113
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.8861,
+     "R": 0.3829,
+     "F1": 0.5348,
+     "TP": 1019,
+     "FP": 131
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1362
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0008,
+     "CI95": [
+      -0.0019,
+      0.0
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0016,
+     "CI95": [
+      -0.0062,
+      0.0047
+     ],
+     "excl0": false
+    }
+   },
+   "10": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.0883,
+     "R": 0.0199,
+     "F1": 0.0325,
+     "TP": 53,
+     "FP": 547
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 172
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.1472,
+     "R": 0.0534,
+     "F1": 0.0783,
+     "TP": 142,
+     "FP": 823
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1030
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0016,
+     "CI95": [
+      -0.0069,
+      0.0043
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0201,
+     "CI95": [
+      0.013,
+      0.0299
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.9112,
+     "R": 0.351,
+     "F1": 0.5068,
+     "TP": 934,
+     "FP": 91
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1057
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.8633,
+     "R": 0.3844,
+     "F1": 0.532,
+     "TP": 1023,
+     "FP": 162
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1435
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0011,
+     "CI95": [
+      -0.0028,
+      0.0003
+     ],
+     "excl0": false
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0044,
+     "CI95": [
+      -0.0111,
+      0.0034
+     ],
+     "excl0": false
+    }
+   },
+   "20": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.1106,
+     "R": 0.0192,
+     "F1": 0.0327,
+     "TP": 51,
+     "FP": 410
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 72
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.1448,
+     "R": 0.0515,
+     "F1": 0.076,
+     "TP": 137,
+     "FP": 809
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1305
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0014,
+     "CI95": [
+      -0.0094,
+      0.0084
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0177,
+     "CI95": [
+      0.0103,
+      0.0282
+     ],
+     "excl0": true
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.9103,
+     "R": 0.3472,
+     "F1": 0.5027,
+     "TP": 924,
+     "FP": 91
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 937
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.8575,
+     "R": 0.3844,
+     "F1": 0.5309,
+     "TP": 1023,
+     "FP": 170
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1468
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0051,
+     "CI95": [
+      -0.0081,
+      -0.002
+     ],
+     "excl0": true
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0055,
+     "CI95": [
+      -0.0118,
+      0.0021
+     ],
+     "excl0": false
+    }
+   },
+   "40": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.1462,
+     "R": 0.0165,
+     "F1": 0.0297,
+     "TP": 44,
+     "FP": 257
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 33
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.1339,
+     "R": 0.0466,
+     "F1": 0.0691,
+     "TP": 124,
+     "FP": 802
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1692
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0044,
+     "CI95": [
+      -0.0154,
+      0.0098
+     ],
+     "excl0": false
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0109,
+     "CI95": [
+      -0.0013,
+      0.024
+     ],
+     "excl0": false
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.9028,
+     "R": 0.3036,
+     "F1": 0.4544,
+     "TP": 808,
+     "FP": 87
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 785
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.8581,
+     "R": 0.3841,
+     "F1": 0.5306,
+     "TP": 1022,
+     "FP": 169
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1455
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0534,
+     "CI95": [
+      -0.0679,
+      -0.0391
+     ],
+     "excl0": true
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0058,
+     "CI95": [
+      -0.0126,
+      0.0021
+     ],
+     "excl0": false
+    }
+   },
+   "80": {
+    "nonoracle/signal_qa/vehicle": {
+     "P": 0.1383,
+     "R": 0.0049,
+     "F1": 0.0094,
+     "TP": 13,
+     "FP": 81
+    },
+    "nonoracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 6
+    },
+    "nonoracle/signal_norm/vehicle": {
+     "P": 0.1207,
+     "R": 0.041,
+     "F1": 0.0612,
+     "TP": 109,
+     "FP": 794
+    },
+    "nonoracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1690
+    },
+    "nonoracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.0247,
+     "CI95": [
+      -0.0394,
+      -0.0092
+     ],
+     "excl0": true
+    },
+    "nonoracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": 0.0029,
+     "CI95": [
+      -0.0122,
+      0.0174
+     ],
+     "excl0": false
+    },
+    "oracle/signal_qa/vehicle": {
+     "P": 0.8767,
+     "R": 0.2431,
+     "F1": 0.3807,
+     "TP": 647,
+     "FP": 91
+    },
+    "oracle/signal_qa/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 618
+    },
+    "oracle/signal_norm/vehicle": {
+     "P": 0.858,
+     "R": 0.3837,
+     "F1": 0.5303,
+     "TP": 1021,
+     "FP": 169
+    },
+    "oracle/signal_norm/pedestrian": {
+     "P": 0.0,
+     "R": NaN,
+     "F1": 0.0,
+     "TP": 0,
+     "FP": 1446
+    },
+    "oracle/signal_qa_minus_uniform6/vehicle": {
+     "dF1": -0.1272,
+     "CI95": [
+      -0.1616,
+      -0.1042
+     ],
+     "excl0": true
+    },
+    "oracle/signal_norm_minus_uniform/vehicle": {
+     "dF1": -0.0062,
+     "CI95": [
+      -0.0129,
+      0.0018
+     ],
+     "excl0": false
+    }
+   }
+  }
+ }
+}

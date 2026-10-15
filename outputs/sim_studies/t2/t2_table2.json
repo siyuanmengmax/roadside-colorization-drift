@@ -1,0 +1,98 @@
+{
+  "clear": {
+    "uniform_oracle": {
+      "AP_vehicle": 0.2724,
+      "AP_pedestrian": 0.0,
+      "mAP": 0.1362
+    },
+    "uniform_nonoracle": {
+      "AP_vehicle": 0.2176,
+      "AP_pedestrian": 0.0227,
+      "mAP": 0.1202
+    },
+    "quality_aware_oracle": {
+      "AP_vehicle": 0.2724,
+      "AP_pedestrian": 0.0,
+      "mAP": 0.1362
+    },
+    "quality_aware_nonoracle": {
+      "AP_vehicle": 0.2186,
+      "AP_pedestrian": 0.0303,
+      "mAP": 0.1244
+    },
+    "uniform_delta_mAP": -0.016,
+    "quality_aware_delta_mAP": -0.0118
+  },
+  "rain_med": {
+    "uniform_oracle": {
+      "AP_vehicle": 0.1724,
+      "AP_pedestrian": 0.0035,
+      "mAP": 0.0879
+    },
+    "uniform_nonoracle": {
+      "AP_vehicle": 0.16,
+      "AP_pedestrian": 0.0,
+      "mAP": 0.08
+    },
+    "quality_aware_oracle": {
+      "AP_vehicle": 0.1727,
+      "AP_pedestrian": 0.0051,
+      "mAP": 0.0889
+    },
+    "quality_aware_nonoracle": {
+      "AP_vehicle": 0.1606,
+      "AP_pedestrian": 0.0,
+      "mAP": 0.0803
+    },
+    "uniform_delta_mAP": -0.0079,
+    "quality_aware_delta_mAP": -0.0086
+  },
+  "fog": {
+    "uniform_oracle": {
+      "AP_vehicle": 0.2709,
+      "AP_pedestrian": 0.0909,
+      "mAP": 0.1809
+    },
+    "uniform_nonoracle": {
+      "AP_vehicle": 0.2802,
+      "AP_pedestrian": 0.0303,
+      "mAP": 0.1552
+    },
+    "quality_aware_oracle": {
+      "AP_vehicle": 0.271,
+      "AP_pedestrian": 0.0909,
+      "mAP": 0.1809
+    },
+    "quality_aware_nonoracle": {
+      "AP_vehicle": 0.2815,
+      "AP_pedestrian": 0.0076,
+      "mAP": 0.1445
+    },
+    "uniform_delta_mAP": -0.0257,
+    "quality_aware_delta_mAP": -0.0364
+  },
+  "night": {
+    "uniform_oracle": {
+      "AP_vehicle": 0.1818,
+      "AP_pedestrian": 0.0,
+      "mAP": 0.0909
+    },
+    "uniform_nonoracle": {
+      "AP_vehicle": 0.2051,
+      "AP_pedestrian": 0.0008,
+      "mAP": 0.103
+    },
+    "quality_aware_oracle": {
+      "AP_vehicle": 0.1818,
+      "AP_pedestrian": 0.0,
+      "mAP": 0.0909
+    },
+    "quality_aware_nonoracle": {
+      "AP_vehicle": 0.1867,
+      "AP_pedestrian": 0.0,
+      "mAP": 0.0933
+    },
+    "uniform_delta_mAP": 0.0121,
+    "quality_aware_delta_mAP": 0.0024
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "detector": "PointPillars",
+  "condition": "fog",
+  "split": "train",
+  "ckpt": "OpenPCDet/output/carla_models/pointpillar_carla/fog/ckpt/checkpoint_epoch_300.pth",
+  "score_thresh": 0.1,
+  "AP_vehicle": 0.6362,
+  "AP_pedestrian": 0.0909,
+  "mAP": 0.3636,
+  "n_gt_vehicle": 20498,
+  "n_gt_pedestrian": 5463,
+  "n_frames": 1400
+}

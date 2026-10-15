@@ -1,0 +1,452 @@
+{
+ "sim_clear": {
+  "n_frames": 200,
+  "E_inf": 25.47,
+  "E_inf_CI95": [
+   25.24,
+   25.69
+  ],
+  "d_half": 10.82,
+  "d_half_CI95": [
+   10.73,
+   10.91
+  ],
+  "budget5": 2.58,
+  "budget5_CI95": [
+   2.55,
+   2.63
+  ],
+  "budget10": 7.23,
+  "budget10_CI95": [
+   7.09,
+   7.38
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "sim_rain_med": {
+  "n_frames": 200,
+  "E_inf": 14.29,
+  "E_inf_CI95": [
+   14.16,
+   14.41
+  ],
+  "d_half": 11.74,
+  "d_half_CI95": [
+   11.58,
+   11.87
+  ],
+  "budget5": 6.55,
+  "budget5_CI95": [
+   6.42,
+   6.67
+  ],
+  "budget10": null,
+  "budget10_CI95": [
+   99.0,
+   99.0
+  ],
+  "frac_boot_budget10_reached": 0.0
+ },
+ "sim_fog": {
+  "n_frames": 200,
+  "E_inf": 8.67,
+  "E_inf_CI95": [
+   8.61,
+   8.73
+  ],
+  "d_half": 9.26,
+  "d_half_CI95": [
+   9.16,
+   9.37
+  ],
+  "budget5": 12.81,
+  "budget5_CI95": [
+   12.58,
+   13.06
+  ],
+  "budget10": null,
+  "budget10_CI95": [
+   99.0,
+   99.0
+  ],
+  "frac_boot_budget10_reached": 0.0
+ },
+ "sim_night": {
+  "n_frames": 200,
+  "E_inf": 12.96,
+  "E_inf_CI95": [
+   12.88,
+   13.02
+  ],
+  "d_half": 7.02,
+  "d_half_CI95": [
+   6.96,
+   7.08
+  ],
+  "budget5": 4.58,
+  "budget5_CI95": [
+   4.53,
+   4.65
+  ],
+  "budget10": null,
+  "budget10_CI95": [
+   99.0,
+   99.0
+  ],
+  "frac_boot_budget10_reached": 0.0
+ },
+ "sim_town05_clear": {
+  "n_frames": 200,
+  "E_inf": 20.93,
+  "E_inf_CI95": [
+   20.66,
+   21.2
+  ],
+  "d_half": 12.22,
+  "d_half_CI95": [
+   12.09,
+   12.38
+  ],
+  "budget5": 3.88,
+  "budget5_CI95": [
+   3.82,
+   3.95
+  ],
+  "budget10": 11.51,
+  "budget10_CI95": [
+   11.29,
+   11.74
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "real_tumtraf": {
+  "n_frames": 361,
+  "E_inf": 16.97,
+  "E_inf_CI95": [
+   13.91,
+   19.59
+  ],
+  "d_half": 12.33,
+  "d_half_CI95": [
+   11.41,
+   13.04
+  ],
+  "budget5": 5.22,
+  "budget5_CI95": [
+   4.49,
+   6.56
+  ],
+  "budget10": null,
+  "budget10_CI95": [
+   13.6,
+   99.0
+  ],
+  "frac_boot_budget10_reached": 0.167
+ },
+ "real_tumtraf_day": {
+  "n_frames": 267,
+  "E_inf": 21.63,
+  "E_inf_CI95": [
+   20.04,
+   23.24
+  ],
+  "d_half": 13.42,
+  "d_half_CI95": [
+   12.97,
+   13.86
+  ],
+  "budget5": 4.08,
+  "budget5_CI95": [
+   3.75,
+   4.45
+  ],
+  "budget10": 11.8,
+  "budget10_CI95": [
+   10.44,
+   13.27
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "real_tumtraf_s04": {
+  "n_frames": 94,
+  "E_inf": 4.76,
+  "E_inf_CI95": [
+   4.26,
+   5.23
+  ],
+  "d_half": 6.32,
+  "d_half_CI95": [
+   5.98,
+   6.57
+  ],
+  "budget5": Infinity,
+  "budget5_CI95": [
+   99.0,
+   99.0
+  ],
+  "budget10": null,
+  "budget10_CI95": [
+   99.0,
+   99.0
+  ],
+  "frac_boot_budget10_reached": 0.0
+ },
+ "real_v2xreal": {
+  "n_frames": 364,
+  "E_inf": 24.92,
+  "E_inf_CI95": [
+   24.44,
+   25.43
+  ],
+  "d_half": 4.36,
+  "d_half_CI95": [
+   4.2,
+   4.53
+  ],
+  "budget5": 1.19,
+  "budget5_CI95": [
+   1.13,
+   1.25
+  ],
+  "budget10": 2.9,
+  "budget10_CI95": [
+   2.76,
+   3.07
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "real_dair_W": {
+  "n_frames": 424,
+  "E_inf": 24.6,
+  "E_inf_CI95": [
+   24.2,
+   24.97
+  ],
+  "d_half": 9.89,
+  "d_half_CI95": [
+   9.61,
+   10.19
+  ],
+  "budget5": 2.46,
+  "budget5_CI95": [
+   2.37,
+   2.55
+  ],
+  "budget10": 6.98,
+  "budget10_CI95": [
+   6.76,
+   7.3
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "real_dair_Y1": {
+  "n_frames": 399,
+  "E_inf": 38.41,
+  "E_inf_CI95": [
+   37.87,
+   38.96
+  ],
+  "d_half": 17.3,
+  "d_half_CI95": [
+   16.96,
+   17.67
+  ],
+  "budget5": 2.53,
+  "budget5_CI95": [
+   2.46,
+   2.61
+  ],
+  "budget10": 6.21,
+  "budget10_CI95": [
+   6.02,
+   6.41
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "real_dair_Y2": {
+  "n_frames": 662,
+  "E_inf": 34.72,
+  "E_inf_CI95": [
+   34.25,
+   35.24
+  ],
+  "d_half": 14.28,
+  "d_half_CI95": [
+   14.09,
+   14.48
+  ],
+  "budget5": 2.29,
+  "budget5_CI95": [
+   2.24,
+   2.35
+  ],
+  "budget10": 5.95,
+  "budget10_CI95": [
+   5.79,
+   6.11
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "real_dair_Y3": {
+  "n_frames": 642,
+  "E_inf": 33.96,
+  "E_inf_CI95": [
+   33.4,
+   34.49
+  ],
+  "d_half": 15.45,
+  "d_half_CI95": [
+   15.19,
+   15.72
+  ],
+  "budget5": 2.59,
+  "budget5_CI95": [
+   2.53,
+   2.65
+  ],
+  "budget10": 6.61,
+  "budget10_CI95": [
+   6.45,
+   6.78
+  ],
+  "frac_boot_budget10_reached": 1.0
+ },
+ "real_dair_Ylow": {
+  "n_frames": 38,
+  "E_inf": 15.58,
+  "E_inf_CI95": [
+   13.25,
+   17.69
+  ],
+  "d_half": 19.23,
+  "d_half_CI95": [
+   18.36,
+   19.88
+  ],
+  "budget5": 9.28,
+  "budget5_CI95": [
+   8.01,
+   11.37
+  ],
+  "budget10": null,
+  "budget10_CI95": [
+   99.0,
+   99.0
+  ],
+  "frac_boot_budget10_reached": 0.0
+ },
+ "town05_minus_town10hd": {
+  "E_inf_diff_CI95": [
+   -4.83,
+   -4.23
+  ],
+  "d_half_diff_CI95": [
+   1.26,
+   1.56
+  ]
+ },
+ "tumtraf_over_v2xreal": {
+  "d_half_ratio_CI95": [
+   2.64,
+   3.0
+  ],
+  "E_inf_diff_CI95": [
+   -10.98,
+   -5.27
+  ]
+ },
+ "tumtraf_day_over_v2xreal": {
+  "d_half_ratio_CI95": [
+   2.93,
+   3.25
+  ],
+  "E_inf_diff_CI95": [
+   -5.06,
+   -1.57
+  ]
+ },
+ "real_dair_Y1_minus_real_dair_Y2": {
+  "E_inf_diff_CI95": [
+   2.95,
+   4.45
+  ],
+  "d_half_diff_CI95": [
+   2.59,
+   3.44
+  ],
+  "budget5_diff_CI95": [
+   0.14,
+   0.33
+  ]
+ },
+ "real_dair_Y1_minus_real_dair_Y3": {
+  "E_inf_diff_CI95": [
+   3.67,
+   5.28
+  ],
+  "d_half_diff_CI95": [
+   1.42,
+   2.31
+  ],
+  "budget5_diff_CI95": [
+   -0.16,
+   0.04
+  ]
+ },
+ "real_dair_Y2_minus_real_dair_Y3": {
+  "E_inf_diff_CI95": [
+   0.19,
+   1.37
+  ],
+  "d_half_diff_CI95": [
+   -1.46,
+   -0.88
+  ],
+  "budget5_diff_CI95": [
+   -0.36,
+   -0.23
+  ]
+ },
+ "real_dair_W_minus_real_dair_Y1": {
+  "E_inf_diff_CI95": [
+   -14.47,
+   -13.24
+  ],
+  "d_half_diff_CI95": [
+   -7.76,
+   -7.04
+  ],
+  "budget5_diff_CI95": [
+   -0.16,
+   0.01
+  ]
+ },
+ "real_dair_W_minus_real_tumtraf": {
+  "E_inf_diff_CI95": [
+   5.03,
+   10.64
+  ],
+  "d_half_diff_CI95": [
+   -3.18,
+   -1.47
+  ],
+  "budget5_diff_CI95": [
+   -4.11,
+   -2.03
+  ]
+ },
+ "real_dair_W_minus_real_v2xreal": {
+  "E_inf_diff_CI95": [
+   -0.97,
+   0.32
+  ],
+  "d_half_diff_CI95": [
+   5.21,
+   5.84
+  ],
+  "budget5_diff_CI95": [
+   1.17,
+   1.38
+  ]
+ }
+}

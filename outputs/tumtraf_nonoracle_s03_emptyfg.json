@@ -1,0 +1,249 @@
+{
+  "seq": "s03",
+  "n_bg": 200,
+  "bg_all": false,
+  "empty_fg": true,
+  "n_eval_frames": 833,
+  "block": 50,
+  "n_boot": 1000,
+  "eval_first_frame": "1651673072_657030420_s110_lidar_ouster_south.pcd",
+  "match": "BEV centre distance 3 m, 11-pt AP",
+  "fg_points_vs_oracle": {
+    "recall": 0.502,
+    "precision": 0.497
+  },
+  "results": {
+    "nonoracle": {
+      "uniform": {
+        "vehicle": {
+          "AP": 0.1304,
+          "CI95": [
+            0.0353,
+            0.1364
+          ],
+          "TP": 1123,
+          "FP": 1467,
+          "FN": 9834,
+          "n_gt": 10957,
+          "recall": 0.1025
+        },
+        "pedestrian": {
+          "AP": 0.0995,
+          "CI95": [
+            0.0741,
+            0.1413
+          ],
+          "TP": 703,
+          "FP": 4552,
+          "FN": 177,
+          "n_gt": 880,
+          "recall": 0.7989
+        }
+      },
+      "geo_qa": {
+        "vehicle": {
+          "AP": 0.1331,
+          "CI95": [
+            0.0397,
+            0.1392
+          ],
+          "TP": 1108,
+          "FP": 1283,
+          "FN": 9849,
+          "n_gt": 10957,
+          "recall": 0.1011
+        },
+        "pedestrian": {
+          "AP": 0.1178,
+          "CI95": [
+            0.0845,
+            0.1647
+          ],
+          "TP": 674,
+          "FP": 3601,
+          "FN": 206,
+          "n_gt": 880,
+          "recall": 0.7659
+        }
+      },
+      "signal_qa": {
+        "vehicle": {
+          "AP": 0.0909,
+          "CI95": [
+            0.069,
+            0.1577
+          ],
+          "TP": 1019,
+          "FP": 499,
+          "FN": 9938,
+          "n_gt": 10957,
+          "recall": 0.093
+        },
+        "pedestrian": {
+          "AP": 0.078,
+          "CI95": [
+            0.046,
+            0.1446
+          ],
+          "TP": 420,
+          "FP": 2094,
+          "FN": 460,
+          "n_gt": 880,
+          "recall": 0.4773
+        }
+      },
+      "geo_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": 0.0027,
+          "paired_CI95": [
+            -0.0381,
+            0.0063
+          ],
+          "excludes_zero": false
+        },
+        "pedestrian": {
+          "delta_AP": 0.0183,
+          "paired_CI95": [
+            0.0014,
+            0.0303
+          ],
+          "excludes_zero": true
+        }
+      },
+      "signal_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.0395,
+          "paired_CI95": [
+            -0.043,
+            0.0371
+          ],
+          "excludes_zero": false
+        },
+        "pedestrian": {
+          "delta_AP": -0.0215,
+          "paired_CI95": [
+            -0.0545,
+            0.0238
+          ],
+          "excludes_zero": false
+        }
+      }
+    },
+    "oracle": {
+      "uniform": {
+        "vehicle": {
+          "AP": 0.27,
+          "CI95": [
+            0.2682,
+            0.2712
+          ],
+          "TP": 2926,
+          "FP": 187,
+          "FN": 8031,
+          "n_gt": 10957,
+          "recall": 0.267
+        },
+        "pedestrian": {
+          "AP": 0.0963,
+          "CI95": [
+            0.065,
+            0.1302
+          ],
+          "TP": 731,
+          "FP": 5720,
+          "FN": 149,
+          "n_gt": 880,
+          "recall": 0.8307
+        }
+      },
+      "geo_qa": {
+        "vehicle": {
+          "AP": 0.2693,
+          "CI95": [
+            0.2675,
+            0.2705
+          ],
+          "TP": 2919,
+          "FP": 210,
+          "FN": 8038,
+          "n_gt": 10957,
+          "recall": 0.2664
+        },
+        "pedestrian": {
+          "AP": 0.0993,
+          "CI95": [
+            0.0667,
+            0.1337
+          ],
+          "TP": 722,
+          "FP": 5453,
+          "FN": 158,
+          "n_gt": 880,
+          "recall": 0.8205
+        }
+      },
+      "signal_qa": {
+        "vehicle": {
+          "AP": 0.2689,
+          "CI95": [
+            0.2669,
+            0.2704
+          ],
+          "TP": 2902,
+          "FP": 215,
+          "FN": 8055,
+          "n_gt": 10957,
+          "recall": 0.2649
+        },
+        "pedestrian": {
+          "AP": 0.067,
+          "CI95": [
+            0.0404,
+            0.0994
+          ],
+          "TP": 561,
+          "FP": 4984,
+          "FN": 319,
+          "n_gt": 880,
+          "recall": 0.6375
+        }
+      },
+      "geo_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.0007,
+          "paired_CI95": [
+            -0.0013,
+            -0.0004
+          ],
+          "excludes_zero": true
+        },
+        "pedestrian": {
+          "delta_AP": 0.003,
+          "paired_CI95": [
+            -0.0092,
+            0.0046
+          ],
+          "excludes_zero": false
+        }
+      },
+      "signal_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.0011,
+          "paired_CI95": [
+            -0.0019,
+            -0.0004
+          ],
+          "excludes_zero": true
+        },
+        "pedestrian": {
+          "delta_AP": -0.0293,
+          "paired_CI95": [
+            -0.052,
+            -0.013
+          ],
+          "excludes_zero": true
+        }
+      }
+    }
+  }
+}

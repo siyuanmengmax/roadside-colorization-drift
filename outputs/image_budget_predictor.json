@@ -1,0 +1,128 @@
+{
+ "groups": {
+  "real_tumtraf_day": {
+   "n_frames": 267,
+   "G_lidar": 3.895,
+   "G_image": 3.05,
+   "budget5": 4.08,
+   "E_1cm": 1.576,
+   "within_rho_Glidar_budget5": -0.64,
+   "within_rho_Glidar_E1cm": 0.562
+  },
+  "real_tumtraf_s04": {
+   "n_frames": 94,
+   "G_lidar": 1.495,
+   "G_image": 1.673,
+   "budget5": null,
+   "E_1cm": 0.655,
+   "within_rho_Glidar_budget5": -0.006,
+   "within_rho_Glidar_E1cm": 0.62
+  },
+  "real_v2xreal": {
+   "n_frames": 364,
+   "G_lidar": 9.262,
+   "G_image": 9.802,
+   "budget5": 1.19,
+   "E_1cm": 4.358,
+   "within_rho_Glidar_budget5": -0.352,
+   "within_rho_Glidar_E1cm": 0.345
+  },
+  "real_dair_W": {
+   "n_frames": 424,
+   "G_lidar": 5.254,
+   "G_image": 5.252,
+   "budget5": 2.46,
+   "E_1cm": 2.402,
+   "within_rho_Glidar_budget5": -0.361,
+   "within_rho_Glidar_E1cm": 0.359
+  },
+  "real_dair_Y1": {
+   "n_frames": 399,
+   "G_lidar": 5.552,
+   "G_image": 5.133,
+   "budget5": 2.53,
+   "E_1cm": 2.244,
+   "within_rho_Glidar_budget5": -0.168,
+   "within_rho_Glidar_E1cm": 0.16
+  },
+  "real_dair_Y2": {
+   "n_frames": 662,
+   "G_lidar": 6.121,
+   "G_image": 5.881,
+   "budget5": 2.29,
+   "E_1cm": 2.504,
+   "within_rho_Glidar_budget5": -0.167,
+   "within_rho_Glidar_E1cm": 0.154
+  },
+  "real_dair_Y3": {
+   "n_frames": 642,
+   "G_lidar": 5.755,
+   "G_image": 5.28,
+   "budget5": 2.59,
+   "E_1cm": 2.24,
+   "within_rho_Glidar_budget5": -0.262,
+   "within_rho_Glidar_E1cm": 0.271
+  },
+  "real_dair_Ylow": {
+   "n_frames": 38,
+   "G_lidar": 2.229,
+   "G_image": 2.007,
+   "budget5": 9.28,
+   "E_1cm": 0.817,
+   "within_rho_Glidar_budget5": -0.639,
+   "within_rho_Glidar_E1cm": 0.579
+  }
+ },
+ "across_groups": {
+  "G_lidar": -0.905,
+  "G_image": -0.929
+ },
+ "across_groups_p": {
+  "G_lidar": 0.002,
+  "G_image": 0.0009
+ },
+ "pooled_frames": {
+  "n": 2890,
+  "rho_Glidar_budget5": -0.602,
+  "rho_Gimage_budget5": -0.621,
+  "rho_Glidar_E1cm": 0.588
+ },
+ "linear_E1cm_from_G": {
+  "k": 0.857,
+  "R2_frames": 0.552,
+  "group_pred_vs_meas": {
+   "real_tumtraf_day": [
+    1.508,
+    1.576
+   ],
+   "real_tumtraf_s04": [
+    0.593,
+    0.655
+   ],
+   "real_v2xreal": [
+    3.952,
+    4.358
+   ],
+   "real_dair_W": [
+    2.291,
+    2.402
+   ],
+   "real_dair_Y1": [
+    2.341,
+    2.244
+   ],
+   "real_dair_Y2": [
+    2.69,
+    2.504
+   ],
+   "real_dair_Y3": [
+    2.441,
+    2.24
+   ],
+   "real_dair_Ylow": [
+    0.967,
+    0.817
+   ]
+  }
+ }
+}

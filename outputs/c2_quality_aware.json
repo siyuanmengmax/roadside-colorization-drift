@@ -1,0 +1,41 @@
+{
+  "n_frames": 1081,
+  "results": {
+    "geo": {
+      "uniform": {
+        "AP_vehicle": 0.3432,
+        "AP_pedestrian": 0.0742,
+        "n_gt_vehicle": 14279,
+        "n_gt_pedestrian": 977
+      },
+      "quality_aware": {
+        "AP_vehicle": 0.3424,
+        "AP_pedestrian": 0.079,
+        "n_gt_vehicle": 14279,
+        "n_gt_pedestrian": 977
+      },
+      "delta_qa_minus_uni": {
+        "veh": -0.0008,
+        "ped": 0.0048
+      }
+    },
+    "signal": {
+      "uniform": {
+        "AP_vehicle": 0.3432,
+        "AP_pedestrian": 0.0742,
+        "n_gt_vehicle": 14279,
+        "n_gt_pedestrian": 977
+      },
+      "quality_aware": {
+        "AP_vehicle": 0.2588,
+        "AP_pedestrian": 0.0686,
+        "n_gt_vehicle": 14279,
+        "n_gt_pedestrian": 977
+      },
+      "delta_qa_minus_uni": {
+        "veh": -0.0844,
+        "ped": -0.0056
+      }
+    }
+  }
+}

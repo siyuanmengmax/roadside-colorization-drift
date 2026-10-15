@@ -1,0 +1,58 @@
+{
+  "clear": {
+    "1 (NE)": {
+      "AP_vehicle": 0.0909,
+      "AP_pedestrian": 0.0
+    },
+    "2 (NE+SW)": {
+      "AP_vehicle": 0.1622,
+      "AP_pedestrian": 0.0016
+    },
+    "4 (all)": {
+      "AP_vehicle": 0.2176,
+      "AP_pedestrian": 0.0227
+    }
+  },
+  "rain_med": {
+    "1 (NE)": {
+      "AP_vehicle": 0.0909,
+      "AP_pedestrian": 0.0031
+    },
+    "2 (NE+SW)": {
+      "AP_vehicle": 0.1691,
+      "AP_pedestrian": 0.0004
+    },
+    "4 (all)": {
+      "AP_vehicle": 0.16,
+      "AP_pedestrian": 0.0
+    }
+  },
+  "fog": {
+    "1 (NE)": {
+      "AP_vehicle": 0.0909,
+      "AP_pedestrian": 0.0
+    },
+    "2 (NE+SW)": {
+      "AP_vehicle": 0.1598,
+      "AP_pedestrian": 0.0413
+    },
+    "4 (all)": {
+      "AP_vehicle": 0.2802,
+      "AP_pedestrian": 0.0303
+    }
+  },
+  "night": {
+    "1 (NE)": {
+      "AP_vehicle": 0.0779,
+      "AP_pedestrian": 0.0034
+    },
+    "2 (NE+SW)": {
+      "AP_vehicle": 0.1571,
+      "AP_pedestrian": 0.0009
+    },
+    "4 (all)": {
+      "AP_vehicle": 0.2051,
+      "AP_pedestrian": 0.0008
+    }
+  }
+}

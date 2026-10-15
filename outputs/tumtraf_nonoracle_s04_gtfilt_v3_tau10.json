@@ -1,0 +1,1231 @@
+{
+  "seq": "s04",
+  "n_bg": 200,
+  "bg_all": false,
+  "empty_fg": false,
+  "gt_filter": true,
+  "tau": 10.0,
+  "n_eval_frames": 363,
+  "block": 50,
+  "n_boot": 1000,
+  "eval_first_frame": "1653330080_212818713_s110_lidar_ouster_south.pcd",
+  "match": "BEV centre distance 3 m, 11-pt AP",
+  "fg_points_vs_oracle": {
+    "recall": 0.087,
+    "precision": 0.098
+  },
+  "results": {
+    "nonoracle": {
+      "uniform": {
+        "vehicle": {
+          "AP": 0.0215,
+          "CI95": [
+            0.0164,
+            0.0255
+          ],
+          "TP": 109,
+          "FP": 971,
+          "FN": 2552,
+          "n_gt": 2661,
+          "recall": 0.041,
+          "P": 0.1009,
+          "R": 0.041,
+          "F1": 0.0583,
+          "P_CI95": [
+            0.0609,
+            0.1413
+          ],
+          "R_CI95": [
+            0.023,
+            0.064
+          ],
+          "F1_CI95": [
+            0.0334,
+            0.088
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 677,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "uniform6": {
+        "vehicle": {
+          "AP": 0.0068,
+          "CI95": [
+            0.0042,
+            0.0112
+          ],
+          "TP": 61,
+          "FP": 856,
+          "FN": 2600,
+          "n_gt": 2661,
+          "recall": 0.0229,
+          "P": 0.0665,
+          "R": 0.0229,
+          "F1": 0.0341,
+          "P_CI95": [
+            0.0189,
+            0.1098
+          ],
+          "R_CI95": [
+            0.006,
+            0.0435
+          ],
+          "F1_CI95": [
+            0.0092,
+            0.0623
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 416,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "geo_qa": {
+        "vehicle": {
+          "AP": 0.0068,
+          "CI95": [
+            0.0042,
+            0.0112
+          ],
+          "TP": 61,
+          "FP": 856,
+          "FN": 2600,
+          "n_gt": 2661,
+          "recall": 0.0229,
+          "P": 0.0665,
+          "R": 0.0229,
+          "F1": 0.0341,
+          "P_CI95": [
+            0.0189,
+            0.1098
+          ],
+          "R_CI95": [
+            0.006,
+            0.0435
+          ],
+          "F1_CI95": [
+            0.0092,
+            0.0623
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 416,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "signal_qa": {
+        "vehicle": {
+          "AP": 0.0404,
+          "CI95": [
+            0.0239,
+            0.0909
+          ],
+          "TP": 53,
+          "FP": 547,
+          "FN": 2608,
+          "n_gt": 2661,
+          "recall": 0.0199,
+          "P": 0.0883,
+          "R": 0.0199,
+          "F1": 0.0325,
+          "P_CI95": [
+            0.0133,
+            0.1443
+          ],
+          "R_CI95": [
+            0.0022,
+            0.0424
+          ],
+          "F1_CI95": [
+            0.0038,
+            0.0653
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 172,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "signal_norm": {
+        "vehicle": {
+          "AP": 0.0519,
+          "CI95": [
+            0.0467,
+            0.059
+          ],
+          "TP": 142,
+          "FP": 823,
+          "FN": 2519,
+          "n_gt": 2661,
+          "recall": 0.0534,
+          "P": 0.1472,
+          "R": 0.0534,
+          "F1": 0.0783,
+          "P_CI95": [
+            0.115,
+            0.1774
+          ],
+          "R_CI95": [
+            0.037,
+            0.0745
+          ],
+          "F1_CI95": [
+            0.0564,
+            0.1051
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 1030,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "geo_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.0147,
+          "paired_CI95": [
+            -0.0162,
+            -0.0098
+          ],
+          "excludes_zero": true,
+          "delta_P": -0.0344,
+          "delta_P_CI95": [
+            -0.048,
+            -0.0224
+          ],
+          "delta_P_excl0": true,
+          "delta_R": -0.018,
+          "delta_R_CI95": [
+            -0.0242,
+            -0.0124
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": -0.0242,
+          "delta_F1_CI95": [
+            -0.0308,
+            -0.0166
+          ],
+          "delta_F1_excl0": true
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "signal_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": 0.0189,
+          "paired_CI95": [
+            0.0016,
+            0.0737
+          ],
+          "excludes_zero": true,
+          "delta_P": -0.0126,
+          "delta_P_CI95": [
+            -0.0548,
+            0.0076
+          ],
+          "delta_P_excl0": false,
+          "delta_R": -0.021,
+          "delta_R_CI95": [
+            -0.0267,
+            -0.0149
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": -0.0258,
+          "delta_F1_CI95": [
+            -0.0353,
+            -0.0187
+          ],
+          "delta_F1_excl0": true
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "uniform6_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.0147,
+          "paired_CI95": [
+            -0.0162,
+            -0.0098
+          ],
+          "excludes_zero": true,
+          "delta_P": -0.0344,
+          "delta_P_CI95": [
+            -0.048,
+            -0.0224
+          ],
+          "delta_P_excl0": true,
+          "delta_R": -0.018,
+          "delta_R_CI95": [
+            -0.0242,
+            -0.0124
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": -0.0242,
+          "delta_F1_CI95": [
+            -0.0308,
+            -0.0166
+          ],
+          "delta_F1_excl0": true
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "geo_qa_minus_uniform6": {
+        "vehicle": {
+          "delta_AP": 0.0,
+          "paired_CI95": [
+            0.0,
+            0.0
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": 0.0,
+          "delta_R_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "signal_qa_minus_uniform6": {
+        "vehicle": {
+          "delta_AP": 0.0336,
+          "paired_CI95": [
+            0.0174,
+            0.0856
+          ],
+          "excludes_zero": true,
+          "delta_P": 0.0218,
+          "delta_P_CI95": [
+            -0.0074,
+            0.0379
+          ],
+          "delta_P_excl0": false,
+          "delta_R": -0.003,
+          "delta_R_CI95": [
+            -0.0056,
+            0.0
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": -0.0016,
+          "delta_F1_CI95": [
+            -0.0069,
+            0.0043
+          ],
+          "delta_F1_excl0": false
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "signal_norm_minus_uniform": {
+        "vehicle": {
+          "delta_AP": 0.0304,
+          "paired_CI95": [
+            0.0238,
+            0.0405
+          ],
+          "excludes_zero": true,
+          "delta_P": 0.0462,
+          "delta_P_CI95": [
+            0.0324,
+            0.0629
+          ],
+          "delta_P_excl0": true,
+          "delta_R": 0.0124,
+          "delta_R_CI95": [
+            0.0074,
+            0.0196
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": 0.0201,
+          "delta_F1_CI95": [
+            0.013,
+            0.0299
+          ],
+          "delta_F1_excl0": true
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      }
+    },
+    "oracle": {
+      "uniform": {
+        "vehicle": {
+          "AP": 0.3503,
+          "CI95": [
+            0.3359,
+            0.453
+          ],
+          "TP": 1009,
+          "FP": 92,
+          "FN": 1652,
+          "n_gt": 2661,
+          "recall": 0.3792,
+          "P": 0.9164,
+          "R": 0.3792,
+          "F1": 0.5364,
+          "P_CI95": [
+            0.8367,
+            0.9937
+          ],
+          "R_CI95": [
+            0.328,
+            0.4336
+          ],
+          "F1_CI95": [
+            0.476,
+            0.5999
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 1250,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "uniform6": {
+        "vehicle": {
+          "AP": 0.3493,
+          "CI95": [
+            0.3294,
+            0.4494
+          ],
+          "TP": 937,
+          "FP": 92,
+          "FN": 1724,
+          "n_gt": 2661,
+          "recall": 0.3521,
+          "P": 0.9106,
+          "R": 0.3521,
+          "F1": 0.5079,
+          "P_CI95": [
+            0.8255,
+            0.9933
+          ],
+          "R_CI95": [
+            0.3029,
+            0.4044
+          ],
+          "F1_CI95": [
+            0.4454,
+            0.5713
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 1129,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "geo_qa": {
+        "vehicle": {
+          "AP": 0.3493,
+          "CI95": [
+            0.3294,
+            0.4494
+          ],
+          "TP": 937,
+          "FP": 92,
+          "FN": 1724,
+          "n_gt": 2661,
+          "recall": 0.3521,
+          "P": 0.9106,
+          "R": 0.3521,
+          "F1": 0.5079,
+          "P_CI95": [
+            0.8255,
+            0.9933
+          ],
+          "R_CI95": [
+            0.3029,
+            0.4044
+          ],
+          "F1_CI95": [
+            0.4454,
+            0.5713
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 1129,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "signal_qa": {
+        "vehicle": {
+          "AP": 0.3505,
+          "CI95": [
+            0.329,
+            0.4467
+          ],
+          "TP": 934,
+          "FP": 91,
+          "FN": 1727,
+          "n_gt": 2661,
+          "recall": 0.351,
+          "P": 0.9112,
+          "R": 0.351,
+          "F1": 0.5068,
+          "P_CI95": [
+            0.8272,
+            0.9933
+          ],
+          "R_CI95": [
+            0.3019,
+            0.403
+          ],
+          "F1_CI95": [
+            0.4452,
+            0.5709
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 1057,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "signal_norm": {
+        "vehicle": {
+          "AP": 0.3364,
+          "CI95": [
+            0.3234,
+            0.4387
+          ],
+          "TP": 1023,
+          "FP": 162,
+          "FN": 1638,
+          "n_gt": 2661,
+          "recall": 0.3844,
+          "P": 0.8633,
+          "R": 0.3844,
+          "F1": 0.532,
+          "P_CI95": [
+            0.7758,
+            0.9464
+          ],
+          "R_CI95": [
+            0.3327,
+            0.4398
+          ],
+          "F1_CI95": [
+            0.4721,
+            0.5965
+          ]
+        },
+        "pedestrian": {
+          "AP": NaN,
+          "CI95": [
+            NaN,
+            NaN
+          ],
+          "TP": 0,
+          "FP": 1435,
+          "FN": 0,
+          "n_gt": 0,
+          "recall": 0.0,
+          "P": 0.0,
+          "R": NaN,
+          "F1": 0.0,
+          "P_CI95": [
+            0.0,
+            0.0
+          ],
+          "R_CI95": [
+            NaN,
+            NaN
+          ],
+          "F1_CI95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "geo_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.001,
+          "paired_CI95": [
+            -0.0906,
+            -0.0001
+          ],
+          "excludes_zero": true,
+          "delta_P": -0.0058,
+          "delta_P_CI95": [
+            -0.0113,
+            -0.0004
+          ],
+          "delta_P_excl0": true,
+          "delta_R": -0.0271,
+          "delta_R_CI95": [
+            -0.0333,
+            -0.023
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": -0.0286,
+          "delta_F1_CI95": [
+            -0.0347,
+            -0.0236
+          ],
+          "delta_F1_excl0": true
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "signal_qa_minus_uniform": {
+        "vehicle": {
+          "delta_AP": 0.0002,
+          "paired_CI95": [
+            -0.0906,
+            0.0009
+          ],
+          "excludes_zero": false,
+          "delta_P": -0.0052,
+          "delta_P_CI95": [
+            -0.0108,
+            -0.0004
+          ],
+          "delta_P_excl0": true,
+          "delta_R": -0.0282,
+          "delta_R_CI95": [
+            -0.0348,
+            -0.0241
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": -0.0296,
+          "delta_F1_CI95": [
+            -0.0357,
+            -0.0248
+          ],
+          "delta_F1_excl0": true
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "uniform6_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.001,
+          "paired_CI95": [
+            -0.0906,
+            -0.0001
+          ],
+          "excludes_zero": true,
+          "delta_P": -0.0058,
+          "delta_P_CI95": [
+            -0.0113,
+            -0.0004
+          ],
+          "delta_P_excl0": true,
+          "delta_R": -0.0271,
+          "delta_R_CI95": [
+            -0.0333,
+            -0.023
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": -0.0286,
+          "delta_F1_CI95": [
+            -0.0347,
+            -0.0236
+          ],
+          "delta_F1_excl0": true
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "geo_qa_minus_uniform6": {
+        "vehicle": {
+          "delta_AP": 0.0,
+          "paired_CI95": [
+            0.0,
+            0.0
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": 0.0,
+          "delta_R_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "signal_qa_minus_uniform6": {
+        "vehicle": {
+          "delta_AP": 0.0012,
+          "paired_CI95": [
+            -0.0006,
+            0.0019
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0006,
+          "delta_P_CI95": [
+            -0.0008,
+            0.0024
+          ],
+          "delta_P_excl0": false,
+          "delta_R": -0.0011,
+          "delta_R_CI95": [
+            -0.0027,
+            0.0
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": -0.0011,
+          "delta_F1_CI95": [
+            -0.0028,
+            0.0003
+          ],
+          "delta_F1_excl0": false
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      },
+      "signal_norm_minus_uniform": {
+        "vehicle": {
+          "delta_AP": -0.0139,
+          "paired_CI95": [
+            -0.0203,
+            0.0693
+          ],
+          "excludes_zero": false,
+          "delta_P": -0.0531,
+          "delta_P_CI95": [
+            -0.077,
+            -0.0234
+          ],
+          "delta_P_excl0": true,
+          "delta_R": 0.0053,
+          "delta_R_CI95": [
+            0.0018,
+            0.0111
+          ],
+          "delta_R_excl0": true,
+          "delta_F1": -0.0044,
+          "delta_F1_CI95": [
+            -0.0111,
+            0.0034
+          ],
+          "delta_F1_excl0": false
+        },
+        "pedestrian": {
+          "delta_AP": NaN,
+          "paired_CI95": [
+            NaN,
+            NaN
+          ],
+          "excludes_zero": false,
+          "delta_P": 0.0,
+          "delta_P_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_P_excl0": false,
+          "delta_R": NaN,
+          "delta_R_CI95": [
+            NaN,
+            NaN
+          ],
+          "delta_R_excl0": false,
+          "delta_F1": 0.0,
+          "delta_F1_CI95": [
+            0.0,
+            0.0
+          ],
+          "delta_F1_excl0": false
+        }
+      }
+    }
+  }
+}

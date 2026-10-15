@@ -1,0 +1,21 @@
+name: rcd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - scipy=1.14
+  - pandas=2.2
+  - matplotlib=3.9
+  - numba=0.60
+  - hdbscan=0.8
+  - pyyaml=6.0
+  - tqdm
+  - pillow
+  - pip
+  - pip:
+      - opencv-python==4.10.0.84
+      - open3d==0.18.0
+# collect_data.py also needs the CARLA 0.9.15 Python client (from the simulator's PythonAPI).
+# PointPillars (sim_studies/t1, scripts/eval_pp_zeroshot_tumtraf.py) additionally needs
+# PyTorch 2.3 and OpenPCDet; see pointpillars/README.md.

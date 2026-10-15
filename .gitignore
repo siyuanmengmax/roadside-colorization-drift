@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# simulator output and external datasets (not distributed)
+carla_data/
+carla_data_town05/
+data/
+work/
+# per-frame records and generated figures
+outputs/*.npz
+outputs/*.pdf
+outputs/*.png

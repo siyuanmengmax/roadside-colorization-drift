@@ -1,0 +1,13 @@
+{
+  "detector": "PointPillars",
+  "condition": "clear",
+  "split": "test",
+  "ckpt": "OpenPCDet/output/carla_models/pointpillar_carla/clear/ckpt/checkpoint_epoch_300.pth",
+  "score_thresh": 0.1,
+  "AP_vehicle": 0.5142,
+  "AP_pedestrian": 0.0909,
+  "mAP": 0.3026,
+  "n_gt_vehicle": 4143,
+  "n_gt_pedestrian": 2622,
+  "n_frames": 400
+}

@@ -1,0 +1,12 @@
+{
+  "detector": "MulDet3D(oracle)",
+  "condition": "fog",
+  "split": "test",
+  "mode": "uniform",
+  "AP_vehicle": 0.2709,
+  "AP_pedestrian": 0.0909,
+  "mAP": 0.1809,
+  "n_gt_vehicle": 3824,
+  "n_gt_pedestrian": 2972,
+  "n_frames": 400
+}

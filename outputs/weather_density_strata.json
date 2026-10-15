@@ -1,0 +1,125 @@
+{
+ "clear": {
+  "veh_per_frame": 10.36,
+  "recall": 0.2397,
+  "precision": 0.6778,
+  "strata": {
+   "0-8": {
+    "frames": 106,
+    "recall": 0.2309
+   },
+   "9-11": {
+    "frames": 130,
+    "recall": 0.2831
+   },
+   "12-14": {
+    "frames": 164,
+    "recall": 0.214
+   },
+   "15-17": {
+    "frames": 0,
+    "recall": null
+   },
+   "18-99": {
+    "frames": 0,
+    "recall": null
+   }
+  },
+  "recall_density_standardized": 0.2462,
+  "standardization_weight_covered": 0.694
+ },
+ "rain_med": {
+  "veh_per_frame": 15.38,
+  "recall": 0.1363,
+  "precision": 0.7597,
+  "strata": {
+   "0-8": {
+    "frames": 0,
+    "recall": null
+   },
+   "9-11": {
+    "frames": 42,
+    "recall": 0.2316
+   },
+   "12-14": {
+    "frames": 103,
+    "recall": 0.2225
+   },
+   "15-17": {
+    "frames": 116,
+    "recall": 0.0794
+   },
+   "18-99": {
+    "frames": 139,
+    "recall": 0.117
+   }
+  },
+  "recall_density_standardized": 0.1812,
+  "standardization_weight_covered": 0.886
+ },
+ "fog": {
+  "veh_per_frame": 9.56,
+  "recall": 0.3413,
+  "precision": 0.6865,
+  "strata": {
+   "0-8": {
+    "frames": 77,
+    "recall": 0.349
+   },
+   "9-11": {
+    "frames": 301,
+    "recall": 0.341
+   },
+   "12-14": {
+    "frames": 22,
+    "recall": 0.3258
+   },
+   "15-17": {
+    "frames": 0,
+    "recall": null
+   },
+   "18-99": {
+    "frames": 0,
+    "recall": null
+   }
+  },
+  "recall_density_standardized": 0.3361,
+  "standardization_weight_covered": 0.694
+ },
+ "night": {
+  "veh_per_frame": 15.1,
+  "recall": 0.227,
+  "precision": 0.6269,
+  "strata": {
+   "0-8": {
+    "frames": 0,
+    "recall": null
+   },
+   "9-11": {
+    "frames": 0,
+    "recall": null
+   },
+   "12-14": {
+    "frames": 165,
+    "recall": 0.2676
+   },
+   "15-17": {
+    "frames": 180,
+    "recall": 0.208
+   },
+   "18-99": {
+    "frames": 55,
+    "recall": 0.1982
+   }
+  },
+  "recall_density_standardized": 0.2347,
+  "standardization_weight_covered": 0.59
+ },
+ "_weights": {
+  "0-8": 0.114,
+  "9-11": 0.296,
+  "12-14": 0.284,
+  "15-17": 0.185,
+  "18-99": 0.121
+ }
+}

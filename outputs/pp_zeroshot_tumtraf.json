@@ -1,0 +1,13 @@
+{
+  "detector": "PointPillars (CARLA-trained, zero-shot)",
+  "domain": "TUMTraf-I real",
+  "split": "test",
+  "ckpt": "OpenPCDet/output/carla_models/pointpillar_carla/clear/ckpt/checkpoint_epoch_300.pth",
+  "score_thresh": 0.1,
+  "AP_vehicle": 0.147,
+  "AP_pedestrian": 0.0,
+  "mAP": 0.0735,
+  "n_gt_vehicle": 12197,
+  "n_gt_pedestrian": 1059,
+  "n_frames": 1033
+}

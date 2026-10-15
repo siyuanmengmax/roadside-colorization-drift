@@ -1,0 +1,46 @@
+[
+  {
+    "condition": "clear",
+    "n_test_frames": 400,
+    "vehicle": {
+      "n_gt": 4143,
+      "median_range_m": 48.2,
+      "p90_range_m": 74.6,
+      "median_pts": 71,
+      "mean_pts": 239.6,
+      "frac_lt5_pts": 0.05,
+      "frac_0_pts": 0.019
+    },
+    "pedestrian": {
+      "n_gt": 2622,
+      "median_range_m": 32.0,
+      "p90_range_m": 65.1,
+      "median_pts": 5,
+      "mean_pts": 12.6,
+      "frac_lt5_pts": 0.494,
+      "frac_0_pts": 0.147
+    }
+  },
+  {
+    "condition": "fog",
+    "n_test_frames": 400,
+    "vehicle": {
+      "n_gt": 3824,
+      "median_range_m": 52.8,
+      "p90_range_m": 74.6,
+      "median_pts": 64,
+      "mean_pts": 151.2,
+      "frac_lt5_pts": 0.045,
+      "frac_0_pts": 0.024
+    },
+    "pedestrian": {
+      "n_gt": 2972,
+      "median_range_m": 45.2,
+      "p90_range_m": 72.9,
+      "median_pts": 1,
+      "mean_pts": 5.9,
+      "frac_lt5_pts": 0.779,
+      "frac_0_pts": 0.347
+    }
+  }
+]
