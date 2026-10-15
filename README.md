@@ -113,6 +113,7 @@ Run all commands from the repository root. Most scripts read and write `outputs/
   ```
   python scripts/tau_sensitivity.py
   ```
+- **Bootstrap block-length check** (supplementary Section S4). `python scripts/block_length_sensitivity.py`
 - **Simulated quality-aware comparison.** `sim_studies/t4/t4_analysis.py` and `sim_studies/t5/t5_mechanism.py`
 - **PointPillars** (supervised baseline and zero-shot TUMTraf-I row): see [`pointpillars/README.md`](pointpillars/README.md).
 
