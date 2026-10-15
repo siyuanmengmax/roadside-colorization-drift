@@ -9,3 +9,4 @@ work/
 outputs/*.npz
 outputs/*.pdf
 outputs/*.png
+!outputs/budget_from_single_frame_frames.npz

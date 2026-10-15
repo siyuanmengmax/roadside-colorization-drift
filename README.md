@@ -78,6 +78,7 @@ Run all commands from the repository root. Most scripts read and write `outputs/
 4. **Image statistic G and budget prediction** (Section V-D).
    ```
    python scripts/image_budget_predictor.py
+   python scripts/budget_from_single_frame.py   # leave-one-group-out and single-frame prediction
    ```
 5. **Figures.**
    - Drift-law figures (drift law, pixel displacement, Town05): `scripts/phase1_figure.py`

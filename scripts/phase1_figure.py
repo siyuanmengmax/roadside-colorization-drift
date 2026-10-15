@@ -72,22 +72,30 @@ for key, name, col, ls in [("sim_clear", "CARLA Town10HD clear", "tab:blue", "-"
     ax.plot(mid[ok], np.array(s["bins_mean_E"], float)[ok], ls, marker="o", ms=2.5, color=col, label=name)
 ax.set_xscale("log"); ax.set_xlabel("Per-point projection displacement (pixels)"); ax.set_ylabel("Mean colorization error")
 ax.set_title("(a)", fontsize=9, loc="left"); ax.grid(alpha=0.25, which="both"); ax.legend(fontsize=7, loc="upper left")
-# (b) E(1 cm) predicted from a zero-drift image statistic (image_budget_predictor.py) vs measured
-IP = json.loads((V / "outputs/image_budget_predictor.json").read_text())["linear_E1cm_from_G"]
+# (b) E(1 cm) predicted from one zero-drift frame (budget_from_single_frame.py), leave-one-group-out:
+# marker = mean prediction over the group's frames, horizontal bar = 10th-90th percentile of single-frame
+# predictions, y = measured mean error at 1 cm
+Z = np.load(V / "outputs/budget_from_single_frame_frames.npz", allow_pickle=True)
+zg, zx, zE1 = Z["group"], Z["G"] * Z["px_avg"], Z["E"][:, 1]
 LAB = {"real_tumtraf_day": ("TUMTraf-I day", "crimson", "o"), "real_tumtraf_s04": ("TUMTraf-I rain/night", "lightcoral", "o"),
        "real_v2xreal": ("V2X-Real", "black", "o")}
 LAB.update({k: (n.replace("DAIR-V2X-I ", ""), c, "s") for k, n, c in DAIR})
-for key, (pr, me) in IP["group_pred_vs_meas"].items():
+OFF = {"real_dair_W": (-18, 4), "real_dair_Y1": (-2, 7), "real_dair_Y2": (8, 1), "real_dair_Y3": (5, -12),
+       "real_tumtraf_s04": (4, -12), "real_v2xreal": (-10, 7)}
+for key in dict.fromkeys(zg.tolist()):
+    m = zg == key
+    k_ = float((zx[~m] * zE1[~m]).sum() / (zx[~m] ** 2).sum())
+    pr = k_ * zx[m]; me = float(zE1[m].mean()); lo, hi = np.percentile(pr, [10, 90])
     name, col, mk = LAB[key]
-    bx.plot(pr, me, mk, color=col, ms=6)
-    bx.annotate(name, (pr, me), fontsize=7, xytext=(4, -3), textcoords="offset points")
-lim = [0.4, 5.5]
+    bx.errorbar(pr.mean(), me, xerr=[[pr.mean() - lo], [hi - pr.mean()]], fmt=mk, color=col, ms=6, capsize=2, lw=0.9)
+    bx.annotate(name, (pr.mean(), me), fontsize=7, xytext=OFF.get(key, (5, 3)), textcoords="offset points")
+lim = [0.3, 6.5]
 bx.plot(lim, lim, "-", color="grey", lw=0.8); bx.fill_between(lim, [0.8 * x for x in lim], [1.2 * x for x in lim], color="grey", alpha=0.12, lw=0)
 bx.set_xscale("log"); bx.set_yscale("log"); bx.set_xlim(lim); bx.set_ylim(lim)
 from matplotlib.ticker import FixedLocator, NullLocator, FormatStrFormatter
 for a_ in (bx.xaxis, bx.yaxis):
     a_.set_major_locator(FixedLocator([0.5, 1, 2, 4])); a_.set_minor_locator(NullLocator()); a_.set_major_formatter(FormatStrFormatter("%g"))
-bx.set_xlabel(f"Predicted error at 1 cm, {IP['k']:.2f} x G x pixels/cm"); bx.set_ylabel("Measured error at 1 cm")
+bx.set_xlabel("Predicted error at 1 cm from one zero-drift frame"); bx.set_ylabel("Measured error at 1 cm")
 bx.set_title("(b)", fontsize=9, loc="left"); bx.grid(alpha=0.25, which="both")
 fig.tight_layout()
 for ext in ("pdf", "png"):
