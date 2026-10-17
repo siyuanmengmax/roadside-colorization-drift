@@ -85,6 +85,7 @@ Run all commands from the repository root. Most scripts read and write `outputs/
    - Qualitative frame: `scripts/qualitative_drift_fig.py`
    - Calibration overlay: `scripts/phase0_boxes.py`
    - Testbed schematic: `gen_testbed_fig.py`
+   - Overview diagram (Fig. 1, TikZ): `figures/overview.tex` (build with `tectonic figures/overview.tex` or `pdflatex`)
 
 ### Detection (Section VI)
 
