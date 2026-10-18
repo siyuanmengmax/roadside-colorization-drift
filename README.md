@@ -120,6 +120,101 @@ Run all commands from the repository root. Most scripts read and write `outputs/
 
 The detector components shared with MulDet3D are in `src/detection/` and `carla_detection.py`.
 
+## Citation
+
+If you use this code, please cite the paper:
+
+```bibtex
+@misc{meng2026drift,
+  author = {Meng, Siyuan and Ai, Chengbo},
+  title  = {Calibration Drift and Colorization Error in Roadside Camera--{LiDAR} Systems:
+            A Saturating Law and Site-Specific Recalibration Budgets},
+  note   = {Manuscript},
+  year   = {2026}
+}
+```
+
+If you also use the datasets, the simulator, or the detection components, please cite their sources:
+
+```bibtex
+@inproceedings{zimmer2023tumtraf,
+  author    = {Zimmer, Walter and Cre{\ss}, Christian and Nguyen, Huu Tung and Knoll, Alois C.},
+  title     = {{TUMTraf} Intersection Dataset: All You Need for Urban {3D} Camera-{LiDAR} Roadside Perception},
+  booktitle = {2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},
+  pages     = {1030--1037},
+  year      = {2023},
+  doi       = {10.1109/ITSC57777.2023.10422289}
+}
+
+@inproceedings{xiang2024v2xreal,
+  author    = {Xiang, Hao and Zheng, Zhaoliang and Xia, Xin and Xu, Runsheng and Gao, Letian and Zhou, Zewei and Han, Xu and Ji, Xinkai and Li, Mingxi and Meng, Zonglin and Jin, Li and Lei, Mingyue and Ma, Zhaoyang and He, Zihang and Ma, Haoxuan and Yuan, Yunshuang and Zhao, Yingqian and Ma, Jiaqi},
+  title     = {{V2X-Real}: A Large-Scale Dataset for Vehicle-to-Everything Cooperative Perception},
+  booktitle = {Computer Vision -- ECCV 2024},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer},
+  pages     = {455--470},
+  year      = {2024},
+  doi       = {10.1007/978-3-031-72943-0_26}
+}
+
+@inproceedings{yu2022dairv2x,
+  author    = {Yu, Haibao and Luo, Yizhen and Shu, Mao and Huo, Yiyi and Yang, Zebang and Shi, Yifeng and Guo, Zhenglong and Li, Hanyu and Hu, Xing and Yuan, Jirui and Nie, Zaiqing},
+  title     = {{DAIR-V2X}: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative {3D} Object Detection},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {21329--21338},
+  year      = {2022},
+  doi       = {10.1109/CVPR52688.2022.02067}
+}
+
+@inproceedings{dosovitskiy2017carla,
+  author    = {Dosovitskiy, Alexey and Ros, German and Codevilla, Felipe and Lopez, Antonio and Koltun, Vladlen},
+  title     = {{CARLA}: An Open Urban Driving Simulator},
+  booktitle = {Proceedings of the 1st Annual Conference on Robot Learning (CoRL)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {78},
+  pages     = {1--16},
+  year      = {2017}
+}
+
+@article{meng2026muldet3d,
+  author  = {Meng, Siyuan and Zhang, Yanan and Raucci, David and Ai, Chengbo},
+  title   = {{MulDet3D}: Multiobjective Optimization-Based Unsupervised Object Detection for Multiple Roadside {LiDARs}},
+  journal = {Journal of Transportation Engineering, Part A: Systems},
+  volume  = {152},
+  number  = {10},
+  pages   = {04026100},
+  year    = {2026},
+  doi     = {10.1061/JTEPBS.TEENG-9741}
+}
+
+@article{meng2027frgb3d,
+  author  = {Meng, Siyuan and Parashar, Pravar and Yang, Yu-Min and Ai, Chengbo},
+  title   = {{FRGB3D}: Fast Reliability-Weighted {Gaussian} Background Modeling for Roadside {LiDAR} Traffic Monitoring},
+  journal = {Journal of Computing in Civil Engineering},
+  volume  = {41},
+  number  = {1},
+  pages   = {04026129},
+  year    = {2027},
+  doi     = {10.1061/JCCEE5.CPENG-7710}
+}
+
+@inproceedings{lang2019pointpillars,
+  author    = {Lang, Alex H. and Vora, Sourabh and Caesar, Holger and Zhou, Lubing and Yang, Jiong and Beijbom, Oscar},
+  title     = {{PointPillars}: Fast Encoders for Object Detection from Point Clouds},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {12689--12697},
+  year      = {2019},
+  doi       = {10.1109/CVPR.2019.01298}
+}
+
+@misc{openpcdet2020,
+  author       = {{OpenPCDet Development Team}},
+  title        = {{OpenPCDet}: An Open-source Toolbox for {3D} Object Detection from Point Clouds},
+  howpublished = {\url{https://github.com/open-mmlab/OpenPCDet}},
+  year         = {2020}
+}
+```
+
 ## Licence
 
 The code is released under the MIT licence. The datasets remain under their own licences. Results derived from TUMTraf-Intersection are reported here only as aggregate statistics.
